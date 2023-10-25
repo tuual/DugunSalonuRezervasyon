@@ -1,0 +1,16 @@
+C:\Users\Biltekbilisim\source\repos\DugunSalonuRezervasyon\DugunSalonuRezervasyon\bin\Debug\net6.0-windows\DugunSalonuRezervasyon.exe
+C:\Users\Biltekbilisim\source\repos\DugunSalonuRezervasyon\DugunSalonuRezervasyon\bin\Debug\net6.0-windows\DugunSalonuRezervasyon.deps.json
+C:\Users\Biltekbilisim\source\repos\DugunSalonuRezervasyon\DugunSalonuRezervasyon\bin\Debug\net6.0-windows\DugunSalonuRezervasyon.runtimeconfig.json
+C:\Users\Biltekbilisim\source\repos\DugunSalonuRezervasyon\DugunSalonuRezervasyon\bin\Debug\net6.0-windows\DugunSalonuRezervasyon.dll
+C:\Users\Biltekbilisim\source\repos\DugunSalonuRezervasyon\DugunSalonuRezervasyon\bin\Debug\net6.0-windows\DugunSalonuRezervasyon.pdb
+C:\Users\Biltekbilisim\source\repos\DugunSalonuRezervasyon\DugunSalonuRezervasyon\obj\Debug\net6.0-windows\DugunSalonuRezervasyon.Form1.resources
+C:\Users\Biltekbilisim\source\repos\DugunSalonuRezervasyon\DugunSalonuRezervasyon\obj\Debug\net6.0-windows\DugunSalonuRezervasyon.csproj.GenerateResource.cache
+C:\Users\Biltekbilisim\source\repos\DugunSalonuRezervasyon\DugunSalonuRezervasyon\obj\Debug\net6.0-windows\DugunSalonuRezervasyon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Biltekbilisim\source\repos\DugunSalonuRezervasyon\DugunSalonuRezervasyon\obj\Debug\net6.0-windows\DugunSalonuRezervasyon.AssemblyInfoInputs.cache
+C:\Users\Biltekbilisim\source\repos\DugunSalonuRezervasyon\DugunSalonuRezervasyon\obj\Debug\net6.0-windows\DugunSalonuRezervasyon.AssemblyInfo.cs
+C:\Users\Biltekbilisim\source\repos\DugunSalonuRezervasyon\DugunSalonuRezervasyon\obj\Debug\net6.0-windows\DugunSalonuRezervasyon.csproj.CoreCompileInputs.cache
+C:\Users\Biltekbilisim\source\repos\DugunSalonuRezervasyon\DugunSalonuRezervasyon\obj\Debug\net6.0-windows\DugunSalonuRezervasyon.dll
+C:\Users\Biltekbilisim\source\repos\DugunSalonuRezervasyon\DugunSalonuRezervasyon\obj\Debug\net6.0-windows\refint\DugunSalonuRezervasyon.dll
+C:\Users\Biltekbilisim\source\repos\DugunSalonuRezervasyon\DugunSalonuRezervasyon\obj\Debug\net6.0-windows\DugunSalonuRezervasyon.pdb
+C:\Users\Biltekbilisim\source\repos\DugunSalonuRezervasyon\DugunSalonuRezervasyon\obj\Debug\net6.0-windows\DugunSalonuRezervasyon.genruntimeconfig.cache
+C:\Users\Biltekbilisim\source\repos\DugunSalonuRezervasyon\DugunSalonuRezervasyon\obj\Debug\net6.0-windows\ref\DugunSalonuRezervasyon.dll
