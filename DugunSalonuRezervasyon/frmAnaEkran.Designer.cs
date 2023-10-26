@@ -30,31 +30,29 @@
         {
             label1 = new Label();
             panel1 = new Panel();
+            lbIsim = new Label();
+            label10 = new Label();
             panel2 = new Panel();
+            btnKaydet = new Button();
+            label12 = new Label();
+            panel3 = new Panel();
+            label9 = new Label();
+            dateTimePicker1 = new DateTimePicker();
+            label8 = new Label();
+            comboBox3 = new ComboBox();
+            label7 = new Label();
+            comboBox2 = new ComboBox();
+            label6 = new Label();
+            comboBox1 = new ComboBox();
+            label5 = new Label();
+            label4 = new Label();
+            label3 = new Label();
             label2 = new Label();
             textBox4 = new TextBox();
             textBox3 = new TextBox();
             textBox2 = new TextBox();
-            label3 = new Label();
-            label4 = new Label();
-            label5 = new Label();
-            comboBox1 = new ComboBox();
-            label6 = new Label();
-            label7 = new Label();
-            comboBox2 = new ComboBox();
-            label8 = new Label();
-            comboBox3 = new ComboBox();
-            dateTimePicker1 = new DateTimePicker();
-            label9 = new Label();
-            label10 = new Label();
-            lbIsim = new Label();
-            panel3 = new Panel();
-            label11 = new Label();
-            label12 = new Label();
-            btnKaydet = new Button();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
-            panel3.SuspendLayout();
             SuspendLayout();
             // 
             // label1
@@ -70,7 +68,7 @@
             // 
             // panel1
             // 
-            panel1.BackColor = Color.PaleVioletRed;
+            panel1.BackColor = Color.RosyBrown;
             panel1.Controls.Add(lbIsim);
             panel1.Controls.Add(label10);
             panel1.Controls.Add(label1);
@@ -79,6 +77,29 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1066, 70);
             panel1.TabIndex = 1;
+            // 
+            // lbIsim
+            // 
+            lbIsim.AutoSize = true;
+            lbIsim.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            lbIsim.ForeColor = Color.White;
+            lbIsim.Location = new Point(938, 29);
+            lbIsim.Name = "lbIsim";
+            lbIsim.Size = new Size(27, 28);
+            lbIsim.TabIndex = 2;
+            lbIsim.Text = "...";
+            lbIsim.Visible = false;
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label10.ForeColor = Color.White;
+            label10.Location = new Point(802, 29);
+            label10.Name = "label10";
+            label10.Size = new Size(130, 28);
+            label10.TabIndex = 1;
+            label10.Text = "Hoşgeldiniz :";
             // 
             // panel2
             // 
@@ -106,6 +127,143 @@
             panel2.Size = new Size(1066, 514);
             panel2.TabIndex = 3;
             panel2.Paint += panel2_Paint;
+            // 
+            // btnKaydet
+            // 
+            btnKaydet.BackColor = Color.IndianRed;
+            btnKaydet.FlatStyle = FlatStyle.Popup;
+            btnKaydet.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnKaydet.ForeColor = Color.White;
+            btnKaydet.Location = new Point(487, 301);
+            btnKaydet.Name = "btnKaydet";
+            btnKaydet.Size = new Size(197, 57);
+            btnKaydet.TabIndex = 15;
+            btnKaydet.Text = "Kaydet";
+            btnKaydet.UseVisualStyleBackColor = false;
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Font = new Font("Segoe UI", 10.2F, FontStyle.Underline, GraphicsUnit.Point);
+            label12.ForeColor = Color.Red;
+            label12.Location = new Point(668, 438);
+            label12.Name = "label12";
+            label12.Size = new Size(386, 23);
+            label12.TabIndex = 14;
+            label12.Text = "Bilgi: Kırmızı Olanlar Dolu Rezervasyon Tarihleridir";
+            // 
+            // panel3
+            // 
+            panel3.BackColor = Color.RosyBrown;
+            panel3.Dock = DockStyle.Bottom;
+            panel3.Location = new Point(0, 476);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(1066, 38);
+            panel3.TabIndex = 13;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.ForeColor = Color.DimGray;
+            label9.Location = new Point(483, 201);
+            label9.Name = "label9";
+            label9.Size = new Size(133, 20);
+            label9.TabIndex = 12;
+            label9.Text = "Rezervasyon Tarihi:";
+            // 
+            // dateTimePicker1
+            // 
+            dateTimePicker1.Location = new Point(483, 224);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(238, 27);
+            dateTimePicker1.TabIndex = 11;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.ForeColor = Color.DimGray;
+            label8.Location = new Point(487, 125);
+            label8.Name = "label8";
+            label8.Size = new Size(129, 20);
+            label8.TabIndex = 10;
+            label8.Text = "İçecekli-İçeceksiz: ";
+            // 
+            // comboBox3
+            // 
+            comboBox3.FormattingEnabled = true;
+            comboBox3.Items.AddRange(new object[] { "İçecekli", "İçeceksiz" });
+            comboBox3.Location = new Point(487, 148);
+            comboBox3.Name = "comboBox3";
+            comboBox3.Size = new Size(197, 28);
+            comboBox3.TabIndex = 9;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.ForeColor = Color.DimGray;
+            label7.Location = new Point(487, 50);
+            label7.Name = "label7";
+            label7.Size = new Size(129, 20);
+            label7.TabIndex = 8;
+            label7.Text = "Yemekli-Yemeksiz:";
+            // 
+            // comboBox2
+            // 
+            comboBox2.FormattingEnabled = true;
+            comboBox2.Items.AddRange(new object[] { "Yemekli", "Yemeksiz" });
+            comboBox2.Location = new Point(487, 73);
+            comboBox2.Name = "comboBox2";
+            comboBox2.Size = new Size(197, 28);
+            comboBox2.TabIndex = 7;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.ForeColor = Color.DimGray;
+            label6.Location = new Point(163, 288);
+            label6.Name = "label6";
+            label6.Size = new Size(131, 20);
+            label6.TabIndex = 6;
+            label6.Text = "Rezervasyon Türü: ";
+            // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Items.AddRange(new object[] { "Düğün", "Nişan", "Kına", "Eğlence" });
+            comboBox1.Location = new Point(163, 311);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(197, 28);
+            comboBox1.TabIndex = 5;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.ForeColor = Color.DimGray;
+            label5.Location = new Point(163, 201);
+            label5.Name = "label5";
+            label5.Size = new Size(80, 20);
+            label5.TabIndex = 4;
+            label5.Text = "Kişi Sayısı: ";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.ForeColor = Color.DimGray;
+            label4.Location = new Point(163, 125);
+            label4.Name = "label4";
+            label4.Size = new Size(80, 20);
+            label4.TabIndex = 4;
+            label4.Text = "Soyadınız: ";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.ForeColor = Color.DimGray;
+            label3.Location = new Point(163, 50);
+            label3.Name = "label3";
+            label3.Size = new Size(58, 20);
+            label3.TabIndex = 4;
+            label3.Text = "Adınız: ";
             // 
             // label2
             // 
@@ -139,172 +297,6 @@
             textBox2.Size = new Size(197, 34);
             textBox2.TabIndex = 0;
             // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.ForeColor = Color.Crimson;
-            label3.Location = new Point(163, 50);
-            label3.Name = "label3";
-            label3.Size = new Size(58, 20);
-            label3.TabIndex = 4;
-            label3.Text = "Adınız: ";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.ForeColor = Color.Crimson;
-            label4.Location = new Point(163, 125);
-            label4.Name = "label4";
-            label4.Size = new Size(80, 20);
-            label4.TabIndex = 4;
-            label4.Text = "Soyadınız: ";
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.ForeColor = Color.Crimson;
-            label5.Location = new Point(163, 201);
-            label5.Name = "label5";
-            label5.Size = new Size(80, 20);
-            label5.TabIndex = 4;
-            label5.Text = "Kişi Sayısı: ";
-            // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(163, 311);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(197, 28);
-            comboBox1.TabIndex = 5;
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.ForeColor = Color.Crimson;
-            label6.Location = new Point(163, 288);
-            label6.Name = "label6";
-            label6.Size = new Size(131, 20);
-            label6.TabIndex = 6;
-            label6.Text = "Rezervasyon Türü: ";
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.ForeColor = Color.Crimson;
-            label7.Location = new Point(487, 50);
-            label7.Name = "label7";
-            label7.Size = new Size(129, 20);
-            label7.TabIndex = 8;
-            label7.Text = "Yemekli-Yemeksiz:";
-            // 
-            // comboBox2
-            // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(487, 73);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(197, 28);
-            comboBox2.TabIndex = 7;
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.ForeColor = Color.Crimson;
-            label8.Location = new Point(487, 125);
-            label8.Name = "label8";
-            label8.Size = new Size(129, 20);
-            label8.TabIndex = 10;
-            label8.Text = "İçecekli-İçeceksiz: ";
-            // 
-            // comboBox3
-            // 
-            comboBox3.FormattingEnabled = true;
-            comboBox3.Location = new Point(487, 148);
-            comboBox3.Name = "comboBox3";
-            comboBox3.Size = new Size(197, 28);
-            comboBox3.TabIndex = 9;
-            // 
-            // dateTimePicker1
-            // 
-            dateTimePicker1.Location = new Point(483, 224);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(238, 27);
-            dateTimePicker1.TabIndex = 11;
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.ForeColor = Color.Crimson;
-            label9.Location = new Point(483, 201);
-            label9.Name = "label9";
-            label9.Size = new Size(133, 20);
-            label9.TabIndex = 12;
-            label9.Text = "Rezervasyon Tarihi:";
-            // 
-            // label10
-            // 
-            label10.AutoSize = true;
-            label10.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label10.ForeColor = Color.White;
-            label10.Location = new Point(780, 25);
-            label10.Name = "label10";
-            label10.Size = new Size(130, 28);
-            label10.TabIndex = 1;
-            label10.Text = "Hoşgeldiniz :";
-            // 
-            // lbIsim
-            // 
-            lbIsim.AutoSize = true;
-            lbIsim.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            lbIsim.ForeColor = Color.White;
-            lbIsim.Location = new Point(924, 25);
-            lbIsim.Name = "lbIsim";
-            lbIsim.Size = new Size(0, 28);
-            lbIsim.TabIndex = 2;
-            // 
-            // panel3
-            // 
-            panel3.BackColor = Color.PaleVioletRed;
-            panel3.Controls.Add(label11);
-            panel3.Dock = DockStyle.Bottom;
-            panel3.Location = new Point(0, 476);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(1066, 38);
-            panel3.TabIndex = 13;
-            // 
-            // label11
-            // 
-            label11.AutoSize = true;
-            label11.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label11.ForeColor = Color.White;
-            label11.Location = new Point(924, 25);
-            label11.Name = "label11";
-            label11.Size = new Size(0, 28);
-            label11.TabIndex = 2;
-            // 
-            // label12
-            // 
-            label12.AutoSize = true;
-            label12.Font = new Font("Segoe UI", 10.2F, FontStyle.Underline, GraphicsUnit.Point);
-            label12.ForeColor = Color.Red;
-            label12.Location = new Point(668, 438);
-            label12.Name = "label12";
-            label12.Size = new Size(386, 23);
-            label12.TabIndex = 14;
-            label12.Text = "Bilgi: Kırmızı Olanlar Dolu Rezervasyon Tarihleridir";
-            // 
-            // btnKaydet
-            // 
-            btnKaydet.BackColor = Color.HotPink;
-            btnKaydet.FlatStyle = FlatStyle.Popup;
-            btnKaydet.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            btnKaydet.ForeColor = Color.White;
-            btnKaydet.Location = new Point(487, 301);
-            btnKaydet.Name = "btnKaydet";
-            btnKaydet.Size = new Size(197, 50);
-            btnKaydet.TabIndex = 15;
-            btnKaydet.Text = "Kaydet";
-            btnKaydet.UseVisualStyleBackColor = false;
-            // 
             // frmAnaEkran
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -316,12 +308,11 @@
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
             Name = "frmAnaEkran";
             StartPosition = FormStartPosition.CenterScreen;
+            Load += frmAnaEkran_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
-            panel3.ResumeLayout(false);
-            panel3.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -347,7 +338,6 @@
         private Label lbIsim;
         private Label label10;
         private Panel panel3;
-        private Label label11;
         private Label label9;
         private Button btnKaydet;
         private Label label12;

@@ -14,3 +14,16 @@ C:\Users\Biltekbilisim\source\repos\DugunSalonuRezervasyon\DugunSalonuRezervasyo
 C:\Users\Biltekbilisim\source\repos\DugunSalonuRezervasyon\DugunSalonuRezervasyon\obj\Debug\net6.0-windows\DugunSalonuRezervasyon.pdb
 C:\Users\Biltekbilisim\source\repos\DugunSalonuRezervasyon\DugunSalonuRezervasyon\obj\Debug\net6.0-windows\DugunSalonuRezervasyon.genruntimeconfig.cache
 C:\Users\Biltekbilisim\source\repos\DugunSalonuRezervasyon\DugunSalonuRezervasyon\obj\Debug\net6.0-windows\ref\DugunSalonuRezervasyon.dll
+C:\Users\Biltekbilisim\source\repos\DugunSalonuRezervasyon\DugunSalonuRezervasyon\obj\Debug\net6.0-windows\DugunSalonuRezervasyon.frmAdminPanel.resources
+C:\Users\Biltekbilisim\source\repos\DugunSalonuRezervasyon\DugunSalonuRezervasyon\obj\Debug\net6.0-windows\DugunSalonuRezervasyon.frmAnaEkran.resources
+C:\Users\Biltekbilisim\source\repos\DugunSalonuRezervasyon\DugunSalonuRezervasyon\obj\Debug\net6.0-windows\DugunSalonuRezervasyon.Properties.Resources.resources
+C:\Users\Biltekbilisim\source\repos\DugunSalonuRezervasyon\DugunSalonuRezervasyon\obj\Debug\net6.0-windows\DugunSalonuRezervasyon.frmUyeListe.resources
+C:\Users\Biltekbilisim\source\repos\DugunSalonuRezervasyon\DugunSalonuRezervasyon\obj\Debug\net6.0-windows\DugunSalonuRezervasyon.frmUyeOlusturma.resources
+C:\Users\Biltekbilisim\source\repos\DugunSalonuRezervasyon\DugunSalonuRezervasyon\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Biltekbilisim\source\repos\DugunSalonuRezervasyon\DugunSalonuRezervasyon\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Biltekbilisim\source\repos\DugunSalonuRezervasyon\DugunSalonuRezervasyon\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Biltekbilisim\source\repos\DugunSalonuRezervasyon\DugunSalonuRezervasyon\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Biltekbilisim\source\repos\DugunSalonuRezervasyon\DugunSalonuRezervasyon\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Biltekbilisim\source\repos\DugunSalonuRezervasyon\DugunSalonuRezervasyon\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Biltekbilisim\source\repos\DugunSalonuRezervasyon\DugunSalonuRezervasyon\obj\Debug\net6.0-windows\DugunSalonuRezervasyon.csproj.AssemblyReference.cache
+C:\Users\Biltekbilisim\source\repos\DugunSalonuRezervasyon\DugunSalonuRezervasyon\obj\Debug\net6.0-windows\DugunSalonuRezervasyon.csproj.CopyComplete
