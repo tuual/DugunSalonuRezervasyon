@@ -1,21 +1,21 @@
-using System.Data.SqlClient;
-using System.Data;
+using MySql.Data;
+using MySql.Data.MySqlClient;
 using System.Security.Cryptography.X509Certificates;
 
 namespace DugunSalonuRezervasyon
 {
     public partial class Form1 : Form
     {
-        private SqlCommand cmd;
-        private SqlDataReader reader;
-        private SqlConnection con;
+        private MySqlCommand cmd;
+        private MySqlDataReader reader;
+        private MySqlConnection con;
         public String adisutun = "";
 
         public Form1()
         {
             InitializeComponent();
-            
-            con = new SqlConnection("Server=DESKTOP-LRUAD0T;Database=DugunRezervasyon;User Id=biltekbilisim;Password=Bilisim20037816;");
+
+            con = new MySqlConnection("Server=localhost; Database=DugunRezervasyon; Uid=root; Pwd=''");
         }
 
         private void txtUyeNo_TextChanged(object sender, EventArgs e)
@@ -72,7 +72,7 @@ namespace DugunSalonuRezervasyon
             String query = "SELECT * FROM uyeler where uyeNo=@uyeno AND uyesifre=@uyeSifre";
             try
             {
-                cmd = new SqlCommand(query, con);
+                cmd = new MySqlCommand(query, con);
                 cmd.Parameters.AddWithValue("@uyeno", uyeno);
                 cmd.Parameters.AddWithValue("@uyesifre", uyesifre);
                 
@@ -80,7 +80,7 @@ namespace DugunSalonuRezervasyon
                 reader = cmd.ExecuteReader();
                 if (reader.Read())
                 {
-                    if (txtUyeNo.Text == "982" && txtSifre.Text== "99admin")
+                    if (txtUyeNo.Text.Equals("982") || txtSifre.Text.Equals("99admin"))
                     {
                         frmAdminPanel frmadmin = new frmAdminPanel();
                         frmadmin.Show();
@@ -121,7 +121,7 @@ namespace DugunSalonuRezervasyon
             {
                 String query2 = "SELECT * FROM uyeler where uyeNo=@uyenoo";
                 con.Open();
-                cmd = new SqlCommand(query2, con);
+                cmd = new MySqlCommand(query2, con);
                 cmd.Parameters.AddWithValue("@uyenoo", txtUyeNo.Text);
                 reader = cmd.ExecuteReader();
                 if (reader.HasRows)

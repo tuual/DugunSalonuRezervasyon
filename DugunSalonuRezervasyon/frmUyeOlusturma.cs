@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using MySql.Data;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,12 +15,12 @@ namespace DugunSalonuRezervasyon
 {
     public partial class frmUyeOlusturma : Form
     {
-        private SqlCommand cmd;
-        private SqlConnection con;
+        private MySqlCommand cmd;
+        private MySqlConnection con;
         public frmUyeOlusturma()
         {
             InitializeComponent();
-            con = new SqlConnection("Server=DESKTOP-LRUAD0T;Database=DugunRezervasyon;User Id=biltekbilisim;Password=Bilisim20037816;");
+            con = new MySqlConnection("Server=localhost; Database=DugunRezervasyon; Uid=root; Pwd=''");
 
         }
 
@@ -65,7 +67,7 @@ namespace DugunSalonuRezervasyon
 
             try
             {
-                cmd = new SqlCommand(query, con);
+                cmd = new MySqlCommand(query, con);
                 con.Open();
                 if (txtUyeAdi.Text == "" || txtUyeNo.Text == "" || txtUyeSifre.Text == "")
                 {

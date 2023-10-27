@@ -75,6 +75,7 @@
             // dataGridView1
             // 
             dataGridView1.BackgroundColor = Color.White;
+            dataGridView1.BorderStyle = BorderStyle.Fixed3D;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Dock = DockStyle.Fill;
             dataGridView1.GridColor = Color.White;
@@ -84,15 +85,16 @@
             dataGridView1.RowTemplate.Height = 29;
             dataGridView1.Size = new Size(1110, 466);
             dataGridView1.TabIndex = 15;
+            dataGridView1.CellClick += dataGridView1_CellClick;
             // 
             // panel1
             // 
             panel1.BackColor = Color.White;
             panel1.Controls.Add(btnKaydet);
             panel1.Dock = DockStyle.Right;
-            panel1.Location = new Point(957, 76);
+            panel1.Location = new Point(788, 76);
             panel1.Name = "panel1";
-            panel1.Size = new Size(153, 466);
+            panel1.Size = new Size(322, 466);
             panel1.TabIndex = 16;
             // 
             // btnKaydet
@@ -101,7 +103,7 @@
             btnKaydet.FlatStyle = FlatStyle.Popup;
             btnKaydet.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             btnKaydet.ForeColor = Color.White;
-            btnKaydet.Location = new Point(16, 60);
+            btnKaydet.Location = new Point(109, 90);
             btnKaydet.Name = "btnKaydet";
             btnKaydet.Size = new Size(125, 50);
             btnKaydet.TabIndex = 16;
