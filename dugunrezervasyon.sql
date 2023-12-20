@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Anamakine: 127.0.0.1:3306
--- Üretim Zamanı: 27 Eki 2023, 07:40:49
+-- Üretim Zamanı: 20 Ara 2023, 12:58:43
 -- Sunucu sürümü: 8.0.31
 -- PHP Sürümü: 8.0.26
 
@@ -36,9 +36,16 @@ CREATE TABLE IF NOT EXISTS `rezervasyonlar` (
   `rezTuru` varchar(50) DEFAULT NULL,
   `yemek` varchar(50) DEFAULT NULL,
   `icecek` varchar(50) DEFAULT NULL,
-  `rezTarih` date DEFAULT NULL,
+  `rezTarih` varchar(300) DEFAULT NULL,
   PRIMARY KEY (`ID`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+--
+-- Tablo döküm verisi `rezervasyonlar`
+--
+
+INSERT INTO `rezervasyonlar` (`ID`, `adi`, `soyadi`, `kisisayisi`, `rezTuru`, `yemek`, `icecek`, `rezTarih`) VALUES
+(2, 'A', 'A', 'A', 'A', 'A', 'A', '20 Aralık 2023 Çarşamba');
 
 -- --------------------------------------------------------
 
