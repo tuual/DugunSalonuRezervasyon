@@ -38,3 +38,4 @@ C:\Users\Biltekbilisim\source\repos\DugunSalonuRezervasyon\DugunSalonuRezervasyo
 C:\Users\Biltekbilisim\source\repos\DugunSalonuRezervasyon\DugunSalonuRezervasyon\bin\Debug\net6.0-windows\runtimes\win-x64\native\krb5_64.dll
 C:\Users\Biltekbilisim\source\repos\DugunSalonuRezervasyon\DugunSalonuRezervasyon\bin\Debug\net6.0-windows\runtimes\win-x64\native\krbcc64.dll
 C:\Users\Biltekbilisim\source\repos\DugunSalonuRezervasyon\DugunSalonuRezervasyon\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Biltekbilisim\source\repos\DugunSalonuRezervasyon\DugunSalonuRezervasyon\obj\Debug\net6.0-windows\DugunSalonuRezervasyon.frmRezervasyonlar.resources

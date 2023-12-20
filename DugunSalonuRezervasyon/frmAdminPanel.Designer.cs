@@ -66,14 +66,14 @@
             // üyeleriGörüntüleToolStripMenuItem
             // 
             üyeleriGörüntüleToolStripMenuItem.Name = "üyeleriGörüntüleToolStripMenuItem";
-            üyeleriGörüntüleToolStripMenuItem.Size = new Size(224, 26);
+            üyeleriGörüntüleToolStripMenuItem.Size = new Size(207, 26);
             üyeleriGörüntüleToolStripMenuItem.Text = "Üyeleri Görüntüle";
             üyeleriGörüntüleToolStripMenuItem.Click += üyeleriGörüntüleToolStripMenuItem_Click;
             // 
             // üyeEkleToolStripMenuItem
             // 
             üyeEkleToolStripMenuItem.Name = "üyeEkleToolStripMenuItem";
-            üyeEkleToolStripMenuItem.Size = new Size(224, 26);
+            üyeEkleToolStripMenuItem.Size = new Size(207, 26);
             üyeEkleToolStripMenuItem.Text = "Üye Ekle";
             üyeEkleToolStripMenuItem.Click += üyeEkleToolStripMenuItem_Click;
             // 
@@ -91,6 +91,7 @@
             rezervasyonlarıGörüntüleToolStripMenuItem.Name = "rezervasyonlarıGörüntüleToolStripMenuItem";
             rezervasyonlarıGörüntüleToolStripMenuItem.Size = new Size(264, 26);
             rezervasyonlarıGörüntüleToolStripMenuItem.Text = "Rezervasyonları Görüntüle";
+            rezervasyonlarıGörüntüleToolStripMenuItem.Click += rezervasyonlarıGörüntüleToolStripMenuItem_Click;
             // 
             // rezervasyonOluştuToolStripMenuItem
             // 

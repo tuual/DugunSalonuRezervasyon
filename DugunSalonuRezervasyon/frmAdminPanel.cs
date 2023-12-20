@@ -52,7 +52,14 @@ namespace DugunSalonuRezervasyon
         private void üyeEkleToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmUyeOlusturma frmuyeolusturma = new frmUyeOlusturma();
-            frmuyeolusturma.Show(); 
+            frmuyeolusturma.Show();
+        }
+
+        private void rezervasyonlarıGörüntüleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmRezervasyonlar frmrez = new frmRezervasyonlar();
+            frmrez.Show();
+            
         }
     }
 }
